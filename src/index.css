@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply h-full m-0 p-0 text-white scroll-smooth font-roboto bg-primary-color;
+  }
+
+  h1 {
+    @apply text-3xl font-bold tracking-tight;
+  }
+
+  h2 {
+    @apply text-2xl font-bold tracking-tight;
+  }
+
+  h1 {
+    @apply text-xl font-bold tracking-tight;
+  }
+
+  p, span, a {
+    @apply text-base;
+  }
+
+  button {
+    @apply text-sm;
+  }
+}
