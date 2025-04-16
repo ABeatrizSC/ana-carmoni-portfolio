@@ -12,7 +12,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ projectDetails, style 
     const { name, description, repoLink, previewLink, imageUrl, technologies } = projectDetails;
 
     return (
-        <div className={`bg-third-color px-3 py-4 rounded-[0.75rem] flex flex-col gap-4 h-[660px] w-full max-w-[450px] sm:min-w-[380px] min-w-[300px] shadow-md duration-200 ease-in-out transition-transform hover:scale-105 text-center ${style}`}>
+        <div className={`bg-third-color px-3 py-4 rounded-[0.75rem] flex flex-col gap-4 h-[660px] min-h-fit w-full max-w-[450px] sm:min-w-[380px] min-w-[300px] shadow-md duration-200 ease-in-out transition-transform hover:scale-105 text-center ${style}`}>
             <img className="rounded-[0.75rem] w-full h-[180px] object-cover" src={imageUrl} alt={`Imagem ilustrativa do projeto ${name}`} />
             <h3 className="text-lg font-semibold uppercase">{name}</h3>
             <p>{description}</p>

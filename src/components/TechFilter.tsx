@@ -14,27 +14,29 @@ export const TechFilter: React.FC<TechFilterProps> = ({ onFilterChange, filtersC
   };
 
   return (
-    <div className="bg-third-color p-0.5 w-fit rounded-full flex gap-3 shadow-[2px_2px_3px_#000000b4]">
-      {filtersCategory.map((filter) => {
-        const isActive = activeFilter === filter;
-        
-        return (
-          <button
-            key={filter}
-            onClick={() => handleFilterClick(filter)}
-            className={`font-semibold rounded-full transition-colors duration-300 ease-in-out p-0.5 outline-none`}
-          >
-            <span
-              className={`
-                text-sm block px-3 py-1.5 rounded-full border-2 transition-colors duration-300
-                ${isActive ? "border-secondary-color shadow-xl bg-primary-color" : "border-transparent"}
-              `}
+    <div className="bg-third-color rounded-full shadow-[2px_2px_3px_#000000b4] overflow-x-auto md:overflow-visible px-2 py-1 scrollbar-hide">
+      <div className="flex flex-nowrap md:flex-wrap justify-center gap-2 md:gap-3 w-max md:w-fit">
+        {filtersCategory.map((filter) => {
+          const isActive = activeFilter === filter;
+    
+          return (
+            <button
+              key={filter}
+              onClick={() => handleFilterClick(filter)}
+              className="font-semibold rounded-full transition-colors duration-300 ease-in-out outline-none flex-shrink-0"
             >
-              {filter}
-            </span>
-          </button>
-        );
-      })}
+              <span
+                className={`
+                  text-xs sm:text-sm md:text-base px-3 py-1.5 block rounded-full border-2 transition-colors duration-300
+                  ${isActive ? "border-secondary-color shadow-xl bg-primary-color" : "border-transparent"}
+                `}
+              >
+                {filter}
+              </span>
+            </button>
+          );
+        })}
+      </div>
     </div>  
   );
 };
