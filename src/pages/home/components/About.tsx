@@ -23,10 +23,13 @@ export const About: React.FC = () => {
                         Como desenvolvedora, busco o aprendizado e evolução contínuos, explorando novas tecnologias e me desafiando com projetos pessoais em meu tempo livre.
                     </p>
 
-                    <Button>
-                        <img className="h-[35px]" src={linkedinIcon} alt="Ícone do Linkedin" />
-                        Linkedin
-                    </Button>
+                    <a href="https://www.linkedin.com/in/ana-carmoni/" target="_blank">
+                        <Button>
+                            <img className="h-[35px]" src={linkedinIcon} alt="Ícone do Linkedin" />
+                            Linkedin
+                        </Button>
+
+                    </a>
                 </div>
 
                 <div className="flex justify-center w-full md:w-auto">
