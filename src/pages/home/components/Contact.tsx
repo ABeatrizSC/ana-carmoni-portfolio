@@ -33,9 +33,9 @@ export const Contact: React.FC = () => {
                 </form> */}
                 <div className="flex flex-col gap-5">
                     <div className="relative bg-third-color rounded-[0.75rem] shadow-md overflow-hidden ease-in-out transition-transform duration-300 hover:scale-105">
-                        <a href='mailto:anabeatrizscarmoni@gmail.com' target='_blank' className="flex gap-5 items-center cursor-pointer my-3 mx-5">
+                        <a href='mailto:anabscarmoni@gmail.com' target='_blank' className="flex gap-5 items-center cursor-pointer my-3 mx-5">
                             <img className='w-10 duration-200 ease-in-out hover:translate-y-[-2px]' src={emailIcon} alt="Ícone de envelope" />
-                            <span>anabeatrizscarmoni@gmail.com</span>
+                            <span>anabscarmoni@gmail.com</span>
                         </a>
                         <div className="absolute bottom-0 border-b-2 border-secondary-color shadow-md w-full" />
                     </div>

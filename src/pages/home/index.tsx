@@ -5,6 +5,7 @@ import { Experience } from "./components/Experience"
 import { Hero } from "./components/Hero"
 import { Technologies } from "./components/Technologies"
 import { useScrollToSection } from "../../hooks/useScrollToSection"
+import { Certificates } from "./components/Certificates"
 
 export const HomePage: React.FC = () => {
     useScrollToSection();
@@ -16,6 +17,7 @@ export const HomePage: React.FC = () => {
             <Experience />
             <Technologies />
             <Projects />
+            <Certificates />
             <Contact />
         </Template>
     )

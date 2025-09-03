@@ -14,5 +14,6 @@ import { TechBox } from "./TechBox"
 import { Projects } from "../pages/home/components/Projects";
 import { ProjectCard } from "./ProjectCard";
 import { ScrollToTop } from "./ScrollToTop"
+import { Particle } from "./Particle";
 
-export { Template, Button, Header, Footer, NavLink, Logo, SocialIconsList, TypingEffect, Section, TitleBox, TextHighLight, TechFilter, TechBox, Projects, ProjectCard, ScrollToTop };
+export { Template, Button, Header, Footer, NavLink, Logo, SocialIconsList, TypingEffect, Section, TitleBox, TextHighLight, TechFilter, TechBox, Projects, ProjectCard, ScrollToTop, Particle };

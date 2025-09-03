@@ -4,7 +4,7 @@ import linkedinIcon from "../../../assets/icons/linkedin-icon.svg"
 
 export const About: React.FC = () => {
     return (
-        <Section id="about" style="flex-col">
+        <Section id="about" style="flex-col pt-7 !rounded-xl">
             <TitleBox style="items-center md:items-start lg:mb-3">
                 <h2 className="font-bold">Sobre mim</h2>
             </TitleBox>
@@ -12,15 +12,15 @@ export const About: React.FC = () => {
             <div className="flex flex-col-reverse justify-between md:flex-row gap-8 items-center">
                 <div className="flex-1 flex flex-col gap-5 text-center items-center md:text-start md:items-start w-full md:max-w-3xl">
                     <p>
-                        Sou graduanda em <TextHighLight>Análise e Desenvolvimento de Sistemas</TextHighLight> e apaixonada pela possibilidade de transformar ideias em soluções através de linhas de código.
+                        Sou formada em <TextHighLight>Análise e Desenvolvimento de Sistemas</TextHighLight> e apaixonada pela possibilidade de transformar ideias em soluções através de linhas de código.
                     </p>
 
                     <p>
-                        Iniciei minha jornada estudando tecnologias de Desenvolvimento Web <TextHighLight>Front-end</TextHighLight> (JavaScript e React.js), e, posteriormente, ampliei meus conhecimentos também para a área de <TextHighLight>Back-end</TextHighLight> com Java e Spring Boot.
+                        Possuo <TextHighLight>mais de um ano de experiência prática na área de desenvolvimento</TextHighLight>, atuando como estagiária em desenvolvimento web na criação de interfaces responsivas com <TextHighLight>JavaScript</TextHighLight> e <TextHighLight>React.js</TextHighLight>, e em backend no desenvolvimento de APIs RESTful com <TextHighLight>Java</TextHighLight> e <TextHighLight>Spring Boot</TextHighLight>.
                     </p>
 
                     <p>
-                        Como desenvolvedora, busco o aprendizado e evolução contínuos, explorando novas tecnologias e me desafiando com projetos pessoais em meu tempo livre.
+                        Além disso, procuro sempre consolidar e ampliar meus conhecimentos através de <TextHighLight>projetos pessoais</TextHighLight>, em busca de <TextHighLight>aprendizado e evolução</TextHighLight> contínuos.
                     </p>
 
                     <a href="https://www.linkedin.com/in/ana-carmoni/" target="_blank">

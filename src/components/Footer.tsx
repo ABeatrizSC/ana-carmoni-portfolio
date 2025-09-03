@@ -3,9 +3,9 @@ import { NavLink, Logo, SocialIconsList } from './';
 export const Footer: React.FC = () => {
     return (
         <footer className="bg-primary-color rounded-lg w-full px-5 py-5 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-center sm:justify-between flex-col sm:flex-row gap-10">
+            <div className="flex items-center justify-center sm:justify-between flex-col md:flex-row gap-10">
                 <Logo />
-                <ul className="flex flex-wrap flex-col sm:flex-row items-center justify-center text-sm font-medium text-gray-400 gap-5">
+                <ul className="flex flex-wrap flex-col md:flex-row items-center justify-center text-sm font-medium text-gray-400 gap-5">
                     <li>
                         <NavLink href='/' style="pb-1">
                             Home
@@ -29,6 +29,11 @@ export const Footer: React.FC = () => {
                     <li>
                         <NavLink href='/#projects' style="pb-1">
                             Projetos
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink href='/#certificates' style="pb-1">
+                            Formação e certificações
                         </NavLink>
                     </li>
                     <li>

@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { Section, Template, ProjectCard, TechFilter } from "../../components"
-import { projects } from "../../data/projectData"
+import { projects } from "../../data/projectsData"
 
 export const ProjectsPage: React.FC = () => {
     const projectsCategories = ["Todos", "Full stack", "Back-end", "Front-end"];

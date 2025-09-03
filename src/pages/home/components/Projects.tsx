@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { Button, Section, TitleBox, ProjectCard } from "../../../components"
-import { projects } from "../../../data/projectData"
+import { projects } from "../../../data/projectsData"
 
 export const Projects: React.FC = () => {
     return (

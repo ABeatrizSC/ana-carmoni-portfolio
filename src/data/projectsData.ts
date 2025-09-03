@@ -1,5 +1,5 @@
 import { ProjectDetails } from "../types";
-import istudyLogo from "../assets/images/iStudy-logo-banner.jpg"
+import istudyImage from "../assets/images/studies-statistical-information-page.png"
 import imageLite from "../assets/images/imageLite.jpg"
 import userSystem from "../assets/images/user-system.png"
 import parkingApi from "../assets/images/parking-management-system.jpg"
@@ -11,25 +11,36 @@ import notes from "../assets/images/notes.jpg"
 import myMovies from "../assets/images/my-movies.jpg"
 import homepageHashtag from "../assets/images/homepage-hashtag.jpg"
 import restaurantWebsite from "../assets/images/restaurant-website.jpg"
+import picpayImage from "../assets/images/PicPayLogo.png";
+import evoraImage from "../assets/images/evoraLogo.jpg";
 
 export const projects: ProjectDetails[] = [
     {
         "name": "iStudy",
-        "description": "O iStudy é uma plataforma web destinada a estudantes, permitindo com que eles tenham um melhor gerenciamento dos seus estudos e acesso a métricas e outros dados referentes a eles.",
+        "description": "Plataforma web projetada para ajudar estudantes a organizar, gerenciar e acompanhar seu progresso de estudos e rotina acadêmica através de gráficos e métricas de desempenho.",
         repoLink: "https://github.com/ABeatrizSC/iStudy",
-        imageUrl: istudyLogo,
+        imageUrl: istudyImage,
         technologies: ["Java", "Spring Boot", "TypeScript", "React.js", "Next.js", "Docker", "RabbitMQ", "MySQL", "Tailwind CSS", "Material UI", "Spring Security", "JWT", "Spring Cloud", "Spring Data", "Postman", "Git", "GitHub"],
         showOnHome: true,
         category: ["Full stack", "Back-end", "Front-end"]
     },
     {
-        "name": "Image Lite",
-        "description": "Projeto FullStack de um repositório de imagens desenvolvido com Spring Boot, ReactJS e NextJS, permitindo que os usuários criem contas, façam upload de imagens nos formatos JPEG, PNG e GIF, visualizem e as baixem.",
-        repoLink: "https://github.com/ABeatrizSC/image-lite",
-        imageUrl: imageLite,
-        technologies: ["Java", "Spring Boot", "TypeScript", "React.js", "Next.js", "Docker", "PostgreSQL", "Tailwind CSS", "Spring Security", "JWT", "Spring Data", "Postman", "Git", "GitHub"],
+        "name": "Evora",
+        "description": "Sistema de gerenciamento de eventos em arquitetura de microsserviços, com API Gateway, mensageria, integração à API de pagamentos Asaas e envio automatizado de e-mail aos usuários participantes.",
+        repoLink: "https://github.com/ABeatrizSC/evora",
+        imageUrl: evoraImage,
+        technologies: ["Java", "Spring Boot", "Spring Security", "JWT", "Spring Data", "Docker", "RabbitMQ", "PostgreSQL", "MongoDB", "Postman", "Git", "GitHub"],
         showOnHome: true,
-        category: ["Full stack", "Back-end"]
+        category: ["Back-end"]
+    },
+    {
+        "name": "Picpay Simplificado",
+        "description": "Resolução do desafio backend Picpay simplificado utilizando arquitetura limpa (Clean Architecture).",
+        repoLink: "https://github.com/ABeatrizSC/picpay-simplified-challenge",
+        imageUrl: picpayImage,
+        technologies: ["Java", "Spring Boot", "Spring Data", "Postman", "Git", "GitHub"],
+        showOnHome: true,
+        category: ["Back-end"]
     },
     {
         "name": "User System",
@@ -37,8 +48,17 @@ export const projects: ProjectDetails[] = [
         repoLink: "https://github.com/ABeatrizSC/user-system",
         imageUrl: userSystem,
         technologies: ["Java", "Spring Boot", "Spring Security", "JWT", "Spring Data", "Docker", "RabbitMQ", "MySQL", "MongoDB", "Postman", "Git", "GitHub"],
-        showOnHome: true,
+        showOnHome: false,
         category: ["Back-end"]
+    },
+    {
+        "name": "Image Lite",
+        "description": "Projeto FullStack de um repositório de imagens desenvolvido com Spring Boot, ReactJS e NextJS, permitindo que os usuários criem contas, façam upload de imagens nos formatos JPEG, PNG e GIF, visualizem e as baixem.",
+        repoLink: "https://github.com/ABeatrizSC/image-lite",
+        imageUrl: imageLite,
+        technologies: ["Java", "Spring Boot", "TypeScript", "React.js", "Next.js", "Docker", "PostgreSQL", "Tailwind CSS", "Spring Security", "JWT", "Spring Data", "Postman", "Git", "GitHub"],
+        showOnHome: false,
+        category: ["Full stack", "Back-end"]
     },
     {
         "name": "Parking Management System API",
@@ -60,7 +80,7 @@ export const projects: ProjectDetails[] = [
     },
     {
         "name": "Byte",
-        "description": "Projeto acadêmico desenvolvido em grupo de um sistema web Full Stack de delivery para uma lanchonete fictícia chamada Byte. É possível criar e gerenciar pedidos e produtos por meio de painéis administrativos. Este repositório contém todo o código Front-End da aplicação no qual fui responsável. Como tecnologia Back-end, foi utilizado PHP e Laravel.",
+        "description": "Projeto acadêmico em grupo para desenvolvimento de um sistema web Full Stack de delivery para uma lanchonete fictícia, Byte. O sistema permite que clientes façam pedidos e que os administradores gerenciem pedidos e produtos por meio de painéis administrativos. Neste repositório está todo o Front-End, do qual fui responsável.",
         repoLink: "https://github.com/ABeatrizSC/byte",
         previewLink: "https://byte-theta.vercel.app/",
         imageUrl: byte,

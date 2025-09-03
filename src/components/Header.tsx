@@ -69,6 +69,7 @@ export const Header: React.FC = () => {
           <NavLink href="/#experience">Experiência</NavLink>
           <NavLink href="/#technologies">Tecnologias</NavLink>
           <NavLink href="/#projects">Projetos</NavLink>
+          <NavLink href="/#certificates">Formação e certificações</NavLink>
           <NavLink href="/#contact">Contato</NavLink>
         </div>
       </nav>
@@ -94,6 +95,9 @@ export const Header: React.FC = () => {
             </NavLink>
             <NavLink href="/#projects" style="inline-flex py-2" onClick={handleMenu}>
               Projetos
+            </NavLink>
+            <NavLink href="/#certificates" style="inline-flex py-2" onClick={handleMenu}>
+              Formação & certificações
             </NavLink>
             <NavLink href="/#contact" style="inline-flex py-2" onClick={handleMenu}>
               Contato
