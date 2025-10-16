@@ -24,6 +24,7 @@ import springDataIcon from "../assets/icons/spring-data-icon.svg";
 import tailwindcssIcon from "../assets/icons/tailwindcss-icon.svg";
 import typescriptIcon from "../assets/icons/typescript-icon.svg";
 import wordpressIcon from "../assets/icons/wordpress-icon.svg";
+import apacheKafkaIcon from "../assets/icons/apache-kafka-icon.png";
 
 export const technologiesData = [
   { name: "Java", icon: javaIcon, alt: "Logo da linguagem Java", category: "Back-end" },
@@ -37,6 +38,7 @@ export const technologiesData = [
   { name: "Spring Data", icon: springDataIcon, alt: "Logo do Spring Data", category: "Back-end" },
   { name: "Docker", icon: dockerIcon, alt: "Logo do Docker", category: "Outras" },
   { name: "RabbitMQ", icon: rabbitmqIcon, alt: "Logo do RabbitMQ", category: "Back-end" },
+   { name: "Apache Kafka", icon: apacheKafkaIcon, alt: "Logo do Apache Kafka", category: "Back-end" },
   { name: "PostgreSQL", icon: postgresqlIcon, alt: "Logo do PostgreSQL", category: "Back-end" },
   { name: "MySQL", icon: mysqlIcon, alt: "Logo do MySQL", category: "Back-end" },
   { name: "MongoDB", icon: mongoDBIcon, alt: "Logo do MongoDB", category: "Back-end" },
@@ -50,6 +52,6 @@ export const technologiesData = [
   { name: "Bootstrap", icon: bootstrapIcon, alt: "Logo do Bootstrap", category: "Front-end" },
   { name: "HTML5", icon: html5Icon, alt: "Logo do HTML5", category: "Front-end" },
   { name: "CSS3", icon: css3Icon, alt: "Logo do CSS3", category: "Front-end" },
-  { name: "Postman", icon: postmanIcon, alt: "Logo do Postman", category: "Outras" },
+  { name: "Postman", icon: postmanIcon, alt: "Logo do Postman", category: "Back-end" },
   { name: "WordPress", icon: wordpressIcon, alt: "Logo do WordPress", category: "Outras" },
-];
+]

@@ -13,6 +13,7 @@ import homepageHashtag from "../assets/images/homepage-hashtag.jpg"
 import restaurantWebsite from "../assets/images/restaurant-website.jpg"
 import picpayImage from "../assets/images/PicPayLogo.png";
 import evoraImage from "../assets/images/evoraLogo.jpg";
+import orderSystemImage from "../assets/images/order-system.png";
 
 export const projects: ProjectDetails[] = [
     {
@@ -40,6 +41,15 @@ export const projects: ProjectDetails[] = [
         imageUrl: picpayImage,
         technologies: ["Java", "Spring Boot", "Spring Data", "Postman", "Git", "GitHub"],
         showOnHome: true,
+        category: ["Back-end"]
+    },
+        {
+        "name": "Order System",
+        "description": "Sistema de pedidos desenvolvido com arquitetura de microsserviços, utilizando o Padrão Saga Orquestrado para garantir a consistência dos dados entre os serviços.",
+        repoLink: "https://github.com/ABeatrizSC/order-system",
+        imageUrl: orderSystemImage,
+        technologies: ["Java", "Spring Boot", "Spring Data", "Docker", "Apache Kafka" ,"PostgreSQL", "MongoDB", "Postman", "Git", "GitHub"],
+        showOnHome: false,
         category: ["Back-end"]
     },
     {
